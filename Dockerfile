@@ -1,7 +1,5 @@
 FROM node:18
 
-ENV JEST_HTML_REPORTER_OUTPUT_PATH ./results/test-report.html
-
 # Create app directory
 WORKDIR /app
 

@@ -2,6 +2,10 @@ services:
   tester:
     container_name: tietolo-js-container
     image: kamk/tietolo-js
+    # You may want to use other package name, such as vastaukset for testing.
+    environment:
+      - PACKAGE_NAME=${PACKAGE_NAME:-tasks}
+      - JEST_HTML_REPORTER_OUTPUT_PATH=${REPORT_PATH:-./results/test-report.html}
     build:
       context: .
     # command: bash -c "node utils/enableTests.js && npm test"

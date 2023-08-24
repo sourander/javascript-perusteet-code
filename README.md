@@ -29,3 +29,13 @@ node -i -e "$(< yourScript.js)"
 ## Ohjeita
 
 * Välttele näitä nimiä JS-entiteettiesi nimissä: [JavaScript Reserved Words](https://www.w3schools.com/Js/js_reserved.asp)
+
+# Koodin ajaminen eri packagesta
+
+Tämä on lähinnä opettajalle hyödyllinen MEMO. Koodin voi kirjoittaa `src/vastaukset/` moduuliin ja raportin voi luoda `sandbox/fake-report.html` tiedostoon seuraavilla komennoilla. Kummatkin näistä ovat ``.gitignore`:ssa.
+
+```sh
+# Command Prompt
+set REPORT_PATH=./results/fake-report.html
+set PACKAGE_NAME=vastaukset
+```
