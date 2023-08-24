@@ -1,0 +1,11 @@
+services:
+  tester:
+    container_name: tietolo-js-container
+    image: kamk/tietolo-js
+    build:
+      context: .
+    # command: bash -c "node utils/enableTests.js && npm test"
+    command: npm test
+    volumes:
+      - ./src/:/app/src
+      - ./results/:/app/results/
