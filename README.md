@@ -2,9 +2,11 @@
 
 Tämä kurssi on koodattu Node.js v18:lla. Noden dokumentaatio löytyy [täältä](https://nodejs.org/docs/latest-v18.x/api/synopsis.html).
 
-* Tehtävät tehdään seuraamalla [tehtävänantoja](docs/TEHTAVAT.md).'
+* Tehtävät tehdään seuraamalla [tehtävänantoja](docs/TEHTAVAT.md).
   * Kaikki tehtävät toteutetaan `src/tasks/`-hakemistoon.
 * Tehtävät testataan ajamalla testit. Lue ohje alta.
+
+Tehtävien oletetaan noudattavan JavaScript spesifikaatiota ES2020. 
 
 ## Kuinka ajaa testit
 
@@ -25,7 +27,7 @@ Jos et halua ajaa testipakettia vaan haluat pääsyn interaktiiviseen Node.js:n 
 
 Tämän jälkeen seuraavat komennot toimivat:
 * Aja REPL: 
-    * `docker container run -it --rm kamk/tietolo-js`
+    * `docker container run -it --rm kamk/tietolo-js node`
 * Aja Bash
     * `docker container run -it --rm kamk/tietolo-js bash`
 
