@@ -1,6 +1,10 @@
 # JavaScript perusteet
 
-Tämä kurssi on koodattu Node.js v18:lla. Dokumentaatio löytyy [täältä](https://nodejs.org/docs/latest-v18.x/api/synopsis.html).
+Tämä kurssi on koodattu Node.js v18:lla. Noden dokumentaatio löytyy [täältä](https://nodejs.org/docs/latest-v18.x/api/synopsis.html).
+
+* Tehtävät tehdään seuraamalla [tehtävänantoja](docs/TEHTAVAT.md).'
+  * Kaikki tehtävät toteutetaan `src/tasks/`-hakemistoon.
+* Tehtävät testataan ajamalla testit. Lue ohje alta.
 
 ## Kuinka ajaa testit
 
