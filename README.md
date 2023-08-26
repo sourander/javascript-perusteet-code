@@ -50,10 +50,17 @@ REPL:stä pääset ulos komennolla `.exit`.
 
 # Koodin ajaminen eri packagesta
 
-Tämä on lähinnä opettajalle hyödyllinen MEMO. Koodin voi kirjoittaa `src/vastaukset/` moduuliin ja raportin voi luoda `sandbox/fake-report.html` tiedostoon seuraavilla komennoilla. Kummatkin näistä ovat ``.gitignore`:ssa.
+Tämä on lähinnä opettajalle hyödyllinen MEMO. Koodin voi kirjoittaa `src/vastaukset/` moduuliin ja raportin voi luoda `sandbox/fake-report.html` tiedostoon seuraavilla komennoilla. Kummatkin näistä ovat `.gitignore`:ssa.
 
 ```sh
 # Command Prompt
 set REPORT_PATH=./results/fake-report.html
 set PACKAGE_NAME=vastaukset
 ```
+
+# Tehtävän palauttaminen
+
+Kun kaikki testit menevät läpi (eli `jest` palauttaa kaikista tehtävistä **passed**), on aika palauttaa tehtävä. Tarkista, että `results/test-report.html` on ajan tasalla. Mikäli ei, aja testit uusiksi yllä ohjeistetulla tavalla.
+
+1. Lisää tiedosto versionhallintaan.
+2. Palauta tehtävä muualla neuvotulla tavalla (tod.näk. Moodle).

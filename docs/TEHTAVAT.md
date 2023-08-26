@@ -46,4 +46,33 @@ Luo moduuli `tasks.strings`. Tee moduulin sisälle funktio `generate_zip_name`, 
 
 ## Tehtävä 2.2: Sisältääkö B A:n
 
-Luo aiemman tehtävän kanssa samaan funktion nimi on `isAInB` ja sen parametrit ovat kaksi merkkijonoa. Funktio palauttaa Boolen muuttujan (True tai False), joka indikoi, löytyykö merkkijono a merkkijonon b sisältä. Funktion tulee käsitellä pieniä ja suuria kirjaimia keskenään samoina. Esimerkiksi kutsu `isAInB("kissa", "Lemmikkini nimi on Kissa.")` palauttaa True. Myös `isAInB("from taulu", "SELECT * FROM TAULU")` palauttaa True.
+Luo aiemman tehtävän kanssa samaan moduuliin (`strings.js`) funktio nimeltään `isAInB`. Funktion parametrit ovat kaksi merkkijonoa. Funktio palauttaa Boolen muuttujan (true tai false), joka indikoi, löytyykö merkkijono a merkkijonon b sisältä. Funktion tulee käsitellä pieniä ja suuria kirjaimia keskenään samoina. Esimerkiksi kutsu `isAInB("kissa", "Lemmikkini nimi on Kissa.")` palauttaa True. Myös `isAInB("from taulu", "SELECT * FROM TAULU")` palauttaa True.
+
+## Tehtävä 2.3: Laske vokaalit
+
+Käytä yhä samaa moduulia `strings.js`. Luo funktio `count_vowels`, joka laskee kaikki **suomen kielen vokaalit** merkkijonosta, joka syötetään funktioon parametrina. Funktion tulee palauttaa kokonaisluku.
+
+## Tehtävä 2.4: Palindromitunnistin
+
+Käytä yhä samaa moduulia `strings.js`. Luo funktio `isPalindrome`. Funktio palauttaa Boolen muuttujan (true | false), joka indikoi, onko sille syötetty parametri suomen kielessä palindromi vai ei. Joitakin sääntöjä:
+
+1. Isot ja pienet kirjaimet tulee nähdä keskenään samoina.
+2. Erikoismerkkejä (ei-aakkosia) ei tule ottaa huomioon.
+3. Merkkijonossa pitää olla 2 tai enemmän kirjainta.
+4. Funktion ei tarvitse ottaa kantaa siihen, ovatko sanat oikeita sanoja.
+
+
+# Osio 3: Numerot
+
+## Tehtävä 3.1: Celsius Fahrenheitiksi
+
+Luo moduuli `tasks/numbers.js`. Tee moduulin sisälle funktio `celsiusToFahrenheit`, joka ottaa sisään yhden parametrin. Funktio palauttaa luvun, joka on syötteen luku käännettynä Celsiuksesta Fahrenheitiksi.
+
+## Tehtävä 3.2: Jaollinen numeroilla
+
+Käytä samaa moduulia `tasks/numbers.js`. Tee moduulin sisälle funktio `divisibleWithAll`, joka ottaa sisään 2 tai useamman parametrin. Funktio palauttaa Boolen muuttujan (true | false) sen perusteella, onko ensimmäinen annettu luku jaollinen kaikilla muilla luvuilla. Kaikkien parametrien tulee olla konaislukuja; muutoin funktion tulee nostaa virheilmoitus.
+
+Esimerkkejä:
+divisibleWithAll(10, 1, 2, 5) => palauttaa true, koska 10 on jaollinen 1:llä, 2:lla ja 5:llä.
+divisibleWithAll(10, 6) => palauttaa false, koska 10 ei ole jaollinen 6:lla.
+divisibleWithAll(10, 1.3) => nostaa virheilmoituksen
