@@ -33,7 +33,6 @@ Luo moduuli `.src/tasks/variables` (eli tiedosto `src/tasks/variables.js`). Aset
 * my_bool
 * my_array
 * my_object
-* my_symbol
 
 # Osio 2: Sanat ja lauseet
 

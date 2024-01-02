@@ -56,6 +56,10 @@ Tämä on lähinnä opettajalle hyödyllinen MEMO. Koodin voi kirjoittaa `src/va
 # Command Prompt
 set REPORT_PATH=./results/fake-report.html
 set PACKAGE_NAME=vastaukset
+
+# Zsh or bash
+export REPORT_PATH=./results/fake-report.html
+export PACKAGE_NAME=vastaukset
 ```
 
 # Tehtävän palauttaminen
